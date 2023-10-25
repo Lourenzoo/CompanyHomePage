@@ -1,0 +1,569 @@
+html {
+	font-size: 16px;
+	box-sizing: content-box;
+}
+
+body {
+	background-color:rgba(255, 255, 255, 1) ;
+	font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+/* -- Header section -- */
+header{
+	height: 5.3125rem;
+	width: 100%;
+	background-color:rgba(62, 83, 34, 1);
+	position: fixed;
+	color: rgba(255, 255, 255, 1);
+	z-index: 1;
+	/* display: flex; */
+}
+
+.logo {
+	display: inline-block;
+	margin: 1.875rem;
+}
+
+.logo p{
+	font-family: 'Tilt Neon', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+	text-shadow: 1px 1px rgba(102, 144, 47, 1);
+}
+
+.logo strong {
+	color: rgba(102, 144, 47, 1);
+	font-size: 2.5rem;
+	text-shadow: 1px 1px rgba(255, 255, 255, 1);
+}
+
+nav{
+	float: right;
+	margin: 1.875rem;
+}
+
+	
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+	margin-left: 0.5rem;
+}
+
+nav a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.5rem;
+}
+
+
+/* -- Company Mission -- */
+
+.mission {
+	background-image: url("../images/mission_background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5.3125rem;
+}
+
+.mission .conteiner{
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	text-align: center;
+	padding: 2.5rem;
+	border-radius: 0.3125rem;
+}
+
+.mission h1 {
+	font-size: 3rem;
+	font-weight: 700;
+	color: rgba(62, 83, 34, 1);
+	text-transform: uppercase;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.mission h2{
+	font-size: 1.5rem;
+	margin-bottom:1rem;
+}
+
+.mission p{
+	text-transform: uppercase;
+	color:rgba(62, 83, 34, 1);
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+/* About us */
+
+main{
+	position: relative;
+	top:5.3125rem;
+}
+
+.about {
+	margin-top: 1rem ;
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.about .left {
+	background-color: rgba(167, 190, 136, 0.2);
+	width: 40%;
+	text-align: center;
+	padding: 0 2rem;
+}
+
+.about .left h2{
+	color: rgba(62, 83, 34, 1);
+	font-size: 2.5rem;
+	margin-top: 1rem;
+	font-weight: 700;
+}
+
+.about .left p{
+	font-size: 2rem;
+	margin-top: 1rem;
+	font-weight: 500;
+	text-align: justify;
+}
+
+.experience {
+	display: inline-block;
+	width: 45%;
+	border-left: 0.5rem solid rgba(102, 144, 47, 1) ;
+	padding-left:1rem ;
+	padding-bottom:1rem;
+}
+
+.experience p{
+	color: rgba(62, 83, 34, 1);
+	width: 100%;
+	font-size: 2rem;
+	font-weight: 900;
+	text-align: start;
+	margin: 0 auto;
+}
+
+.about .right {
+	background-color: rgba(167, 190, 136, 0.2);
+	width: 40%;
+	padding:0 1rem;
+}
+
+.about img {
+	max-width: 100%;
+	height: auto;
+	margin: 1rem auto;
+	border: 0.125rem solid rgba(62, 83, 34, 1);
+}
+
+.about strong {
+	color: rgba(102, 144, 47, 1);
+	font-size: 2.2rem;
+	font-weight: 700;
+}
+
+/* -- Projects section -- */
+.projects {
+	margin-top: 1rem ;
+	display: inline-flex;
+	justify-content:space-evenly;
+	flex-wrap: wrap;
+	background-color:rgba(62, 83, 34, 1);
+	border-bottom:0.25rem solid rgba(102, 144, 47, 1);
+}
+
+.projects h2 {
+	color: rgba(255, 255, 255, 1);
+	font-size: 2.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.example {
+	width: 27%;
+	margin-bottom: 1rem;
+	box-shadow: -0.7rem -0.5rem rgba(102, 144, 47, 1);
+}
+.example img{
+	max-width: 100%;
+	height: auto;
+	border:0.0625rem solid rgba(255, 255, 255, 1) ;
+}
+
+.example img:hover{
+	transform: scale(1.05);
+	border:0.125rem solid rgba(255, 255, 255, 1) ;
+}
+
+
+
+/* -- Team section -- */
+.team {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.team .top {
+	width: 100%;
+}
+.top h2{
+	color: rgba(62, 83, 34, 1);
+	font-size: 2.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.top p{
+	color: black;
+	font-size: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+}
+
+.member {
+	width: 20%;
+	margin: 0 1rem;
+	box-shadow: 0.7rem 0.5rem rgba(102, 144, 47, 1);
+}
+
+
+.member img{
+	max-width: 100%;
+	height: auto;
+}
+
+.member img:hover{
+	box-shadow: 0.7rem 0.5rem rgba(62, 83, 34, 1);
+}
+
+.member figcaption {
+	font-size: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+	border-left: 0.5rem solid rgba(102, 144, 47, 1);
+}
+
+/* -- Contacts -- */
+.contacts {
+	width: 100%;
+	margin-top: 1rem ;
+	margin-bottom: 1rem ;
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.contacts .left {
+	/* background-color: rgba(167, 190, 136, 0.2); */
+	width: 40%;
+	text-align: center;
+	padding: 0 2rem;
+	display: inline-flex;
+	flex-wrap: wrap;
+
+}
+
+.contacts .right {
+	background-color: rgba(167, 190, 136, 0.1);
+	width: 40%;
+	padding:0 1rem;
+	text-align: center;
+}
+
+.contacts iframe {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 1rem auto;
+	border: 0.125rem solid black;
+}
+
+.contacts .left h2{
+	width: 100%;
+	color: rgba(62, 83, 34, 1);
+	font-size: 2.5rem;
+	margin-top: 1rem;
+	font-weight: 700;
+}
+
+.contacts .left p{
+	width: 100%;
+	font-size: 2rem;
+	margin-top: 1rem;
+	font-weight: 500;
+	flex-shrink: 1;
+}
+
+/* -- Footer section -- */
+footer{
+	height: 5.3125rem;
+	position: relative;
+	top: 5.3125rem;
+	bottom: 0;
+	background-color:rgba(62, 83, 34, 1);
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	padding: 1rem;
+}
+
+footer a {
+	text-decoration: none;
+	color: rgba(102, 144, 47, 1);
+
+}
+
+footer p {
+	font-size: 1.5rem;
+}
+
+
+/* --Mobile Adaptation */
+
+/* --min 1024px (Laptops)-- */
+@media screen and (min-width: 1024px) {
+	.mobile {
+		display: none;
+	}
+	.contacts .left {
+		width: 40%;
+	}
+
+	.contacts .right {
+		width: 40%;
+	}
+	.contacts .left h2{
+		font-size: 2rem;
+	}
+	
+	.contacts .left p{
+		font-size: 1.5rem;
+	}
+	footer{
+	height: 2.5rem;
+	}
+}
+	/* -- max-width 1023px (Tablets) -- */
+@media screen and (max-width: 1023px) {
+	.tablet{
+		display: none;
+	}
+	nav{
+		float: right;
+		margin: 0.5rem;
+	}
+	header{
+		height: 3rem;
+	}
+
+	.logo {
+		margin: 0.5rem;
+	}
+	
+	.logo p{
+		font-size: 2rem;
+	}
+	.logo strong {
+		font-size: 2rem;
+	}
+
+	.top h2{
+		font-size: 2rem;
+	}
+	
+	.top p{
+		font-size: 1.5rem;
+	}
+
+	.about .left h2{
+		font-size: 2rem;
+	}
+	
+	.about .left p{
+		font-size: 1.5rem;
+	}
+	
+	.experience p{
+		font-size: 1.5rem;
+	}
+	
+	.about .right {
+		width: 40%;
+	}
+	
+	.about strong {
+		font-size: 1.7rem;
+	}
+
+	.projects h2 {
+		font-size: 2rem;
+		border-bottom: 1px solid black;
+	}
+
+	.example {
+		width: 40%;
+		margin-bottom: 1rem;
+		box-shadow: -0.7rem -0.5rem rgba(102, 144, 47, 1);
+	
+	}
+
+	.member figcaption {
+		font-size: 1.5rem;
+		font-weight: 400;
+	}
+
+	.contacts .left {
+		width: 40%;
+	}
+
+	.contacts .right {
+		width: 45%;
+	}
+	.contacts .left h2{
+		font-size: 2rem;
+	}
+	
+	.contacts .left p{
+		font-size: 1.5rem;
+	}
+
+	footer {
+		height: 2rem;
+	}
+	footer p {
+		font-size: 1rem;
+	}
+
+}
+
+/* -- max-width 425px (Mobile L and less)-- */
+@media screen and (max-width: 425px) {
+	.tablet {
+		display: none;
+	}
+	
+	.mission .conteiner {
+		width: 80%;
+	}
+
+	.about .right {
+		display: none;
+	}
+	.about .left {
+		width: 80%;
+	}
+
+	.example {
+		width: 80%;
+	}
+
+	.member {
+		width: 40%;
+		margin: 0 1rem;
+		box-shadow: 0.7rem 0.5rem rgba(102, 144, 47, 1);
+	}
+
+	.contacts .left {
+		width: 100%;
+	}
+
+	.contacts .right {
+		width: 100%;
+	}
+	footer p {
+		font-size: 1rem;
+	}
+}
+
+/* --max-width 280 (Galaxy Fold)-- */
+@media screen and (max-width: 280px) {
+	.tablet {
+		display: none;
+	}
+
+	nav a{
+		font-size: 1rem;
+	}
+
+	.logo {
+		margin: 1rem;
+	}
+	
+	.logo p{
+		font-size: 1.5rem;
+	}
+	
+	.logo strong {
+		font-size: 1.5rem;
+	}
+	
+	.mission {
+		padding: 0;
+	}
+
+	.mission .conteiner{
+		width: 80%;
+		padding: 2rem;
+	}
+
+	.mission h1 {
+		font-size: 2rem;
+	}
+	
+	.mission h2{
+		font-size: 1rem;
+		margin-bottom:1rem;
+	}
+
+	.about .right {
+		display: none;
+	}
+	.about .left {
+		width: 80%;
+	}
+
+	.example {
+		width: 80%;
+	}
+
+	.member {
+		width: 80%;
+		margin: 0 1rem;
+		box-shadow: 0.7rem 0.5rem rgba(102, 144, 47, 1);
+	}
+
+	.contacts .left {
+		width: 100%;
+	}
+
+	.contacts .right {
+		width: 100%;
+	}
+	footer p {
+		font-size: 1rem;
+	}
+}
